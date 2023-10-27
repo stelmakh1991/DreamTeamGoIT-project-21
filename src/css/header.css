@@ -1,4 +1,4 @@
-.header {
+/* .header {
   padding: 20px 0;
 }
 
@@ -18,4 +18,146 @@
 .nav-link:hover,
 .nav-link:focus {
   color: #747bff;
+} */
+
+/* ===header */
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #1c2225;
+  padding-top: 20px;
+  padding-bottom: 64px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header-soc-nav {
+  display: flex;
+  gap: 12px;
+}
+
+/* =header-menu */
+/* .header-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 274px;
+  height: 100vh;
+  background-color: #ecd979;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-phone-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 274px;
+}
+
+.phone-link {
+  color: #1C2225;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 20px;
+  border: 1px solid rgba(28, 34, 37, 0.1);
+  border-radius: 15px;
+  max-width: 158px;
+}
+
+.menu-close-btn {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  border: 1px solid violet;
+  padding: 0;
+}
+
+.menu-close-icon {
+  fill: #000000;
+  stroke: #000000;
+} */
+
+
+/* =header-social= */
+.header-soc-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-soc-item {
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  background: rgba(252, 249, 249, 0.1);
+  width: 40px;
+  height: 40px;
+}
+
+.header-btn {
+  background-color: transparent;
+  border: 1px solid violet;
+}
+
+.header-btn-icon {
+  fill: #ecd979;
+  stroke: #ecd979;
+}
+
+@media  screen and (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .header {
+    max-width: 768px;
+    padding-top: 20px;
+    padding-bottom: 106px;
+  }
+
+  .header-soc-nav {
+    gap: 20px;
+  }
+}
+
+@media  screen and (min-width: 1280px) {
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .header {
+    max-width: 1280px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  .header-btn {
+  display: none;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .header {
+    max-width: 1440px;
+    padding-top: 18px;
+  }
 }
