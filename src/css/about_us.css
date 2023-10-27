@@ -1,0 +1,47 @@
+.about-us{
+    background-color: #1C2225;
+    padding: 80px 0;
+}
+
+.title {
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px; /* 137.5% */
+    letter-spacing: -0.96px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.features-list {
+    gap: 40px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.title-text-first {
+    color: rgba(252, 249, 249, 0.40);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    margin-bottom: 20px;
+}
+.title-text-second {
+    color: rgba(252, 249, 249, 0.40);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    margin-bottom: 500px;
+}
+.title-picture {
+    border-radius: 4px;
+}
+
+
