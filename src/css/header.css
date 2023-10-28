@@ -49,6 +49,10 @@ img {
   padding-right: 20px;
 }
 
+.logo-img {
+  margin-right: 60px;
+}
+
 .menu {
   position: fixed;
   top: 0;
@@ -97,13 +101,16 @@ img {
   position: absolute;
   top: 20px;
   right: 20px;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 36px;
-  height: 36px;
   background-color: transparent;
-  border: 1px solid violet;
+  outline: transparent;
+  border: none;
 }
 
 .menu-wrapper {
@@ -115,13 +122,17 @@ img {
   gap: 186px;
 }
 
-.menu-link-wrapper {
+.menu-phone-wrapper {
   border: 1px solid rgba(28, 34, 37, 0.10);
   width: 118px;
   padding: 12px 20px;
   border-radius: 15px;
   margin-right: auto;
   display: block;
+
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-phone-link {
@@ -150,10 +161,67 @@ img {
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier();
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-soc-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-soc-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-soc-item {
+  width: 40px;
+  height: 40px;
+}
+
+.soc-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+  background-color: rgba(252, 249, 249, 0.10);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soc-icon {
+  fill:#fcf9f9;
+}
+
+.header-btn {
+  width: 36px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  outline: transparent;
+}
+
+.header-btn-icon {
+  fill:#ecd979;
+  stroke:#ecd979;
+}
+
+/* !=====768===== */
 @media screen and (min-width: 768px) {
+  .header {
+    max-width: 768px;
+  }
+
   .menu {
     width: 380px;
     background-image: url(../img/menu/tablet/emblem1-tab.png);
@@ -179,6 +247,11 @@ img {
     gap: 224px;
   }
 
+  .menu-btn-icon {
+    width: 44px;
+    height: 44px;
+  }
+
   .menu-link-wrapper {
     width: 137px;
     padding: 14px 28px;
@@ -194,5 +267,112 @@ img {
   /* ==nav menu */
   .menu-nav-list {
     gap: 25px;
+  }
+
+  .header-soc-wrapper {
+    gap: 20px;
+  }
+}
+
+/* !=====1280 */
+@media screen and (min-width:1280px) {
+  .header {
+    max-width: 1280px;
+    padding-top: 22px;
+    padding-bottom: 102px;
+  }
+
+  .header-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .header-btn {
+    display: none;
+  }
+
+  .menu {
+    position: static;
+    transform: translate(0%);
+    background-color: #1c2225;
+    background-image: none;
+    background-size: 0;
+    padding: 0;
+    height: 52px;
+    width: 100%;
+    z-index: 0;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: all;
+  
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  .menu-wrapper {
+    padding: 0;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 130px;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+
+  .menu-phone-wrapper {
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    gap: 25px;
+    width: 137px;
+  }
+
+  .menu-phone-wrapper:hover,
+  .menu-phone-wrapper:focus,
+  .soc-link:hover,
+  .soc-link:focus {
+    border-color: #ecd979;
+  }
+
+  .menu-phone-link {
+    display: block;
+    color: #fcf9f9;
+    font-size: 14px;
+    line-height: 1.43;
+  }
+
+  .menu-nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* margin-top: 186px; */
+  }
+
+  .nav-link {
+    color: #fcf9f9;
+  
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+  color: #ecd979;
+}
+}
+
+/* !=====1440 */
+@media screen and (min-width:1440px) {
+  .header {
+    max-width: 1440px;
+  }
+
+  .menu-wrapper {
+    gap: 289px;
   }
 }

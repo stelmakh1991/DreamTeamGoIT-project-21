@@ -1,21 +1,17 @@
 <header class="header">
   <div class="header-container container">
-    <img src="./img/header/logo.svg" alt="logo" width="44" height="39" />
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-    <button type="button" class="header-btn"></button>
+    <img src="./img/header/logo.svg" alt="logo" width="44" height="39" class="logo-img" />
+    <!-- soc-icons -->
+    <!-- btn-menu -->
     <!-- !MENU -->
-    <div class="menu is-open">
+    <div class="menu">
       <div class="menu-wrapper">
         <button type="button" class="menu-btn">
-          <svg class="menu-btn-icon" width="" height="">
-            <use href=""></use>
+          <svg class="menu-btn-icon" width="36" height="36">
+            <use href="../img/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <div class="menu-link-wrapper">
+        <div class="menu-phone-wrapper">
           <a href="tel:+380684439426" class="link menu-phone-link">+380 (68) 443-94-26</a>
         </div>
         <ul class="menu-nav-list">
@@ -33,6 +29,36 @@
           </li>
         </ul>
       </div>
+    </div>
+    <div class="header-soc-wrapper">
+      <ul class="header-soc-list">
+        <li class="header-soc-item">
+          <a href="https://www.facebook.com/goITclub/" class="link soc-link">
+            <svg width="28" height="28" class="soc-icon">
+              <use href="../img/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-soc-item">
+          <a href="https://www.instagram.com/goitclub/" class="link soc-link">
+            <svg width="28" height="28" class="soc-icon">
+              <use href="../img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-soc-item">
+          <a href="https://www.youtube.com/c/GoIT" class="link soc-link">
+            <svg width="28" height="28" class="soc-icon">
+              <use href="../img/icons.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <button type="button" class="header-btn">
+        <svg class="header-btn-icon" width="36" height="24">
+          <use href="../img/icons.svg#icon-navigation"></use>
+        </svg>
+      </button>
     </div>
   </div>
 </header>
