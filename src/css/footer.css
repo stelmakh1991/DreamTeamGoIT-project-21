@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .container{
     background-color: #6f7071;
 }
@@ -112,13 +115,14 @@
 
 
 
-/* ============================================ 1228 ========================================= */
+/* ============================================ 1280 ========================================= */
 
 
 
 @media screen and (min-width: 1280px) {
     .container{
         max-width: 1280px;
+        margin: 0 auto;
     }
     .footer-container {
         max-width: 1280px;
@@ -147,4 +151,45 @@
     font-size: 64px;
     line-height: 1.16;
 }
+}
+
+/* ============================================ 1440 ========================================= */
+
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .footer-container {
+        max-width: 1440px;
+        flex-direction: row;
+        background-image: url(../img/footer/desctop1440/emblem-desc1440.png);
+        background-repeat: no-repeat;
+        background-position: right;
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .footer-container {
+            background-image: url(../img/footer/desctop1440/emblem-desc1440-2x.png);
+        }
+    }
+
+    .footer-content {
+        padding: 40px 586px 40px 100px;
+    }
+
+    .footer-link-list {
+        margin-bottom: 115px;
+        gap: 25px;
+    }
+
+    .footer-logo-descriptions {
+        font-size: 64px;
+        line-height: 1.16;
+    }
 }
