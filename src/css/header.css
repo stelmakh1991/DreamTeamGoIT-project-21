@@ -31,7 +31,7 @@ img {
 }
 
 /* ?===header */
-.header {
+.header-section {
   max-width: 375px;
   margin: 0 auto;
   padding-top: 20px;
@@ -218,7 +218,7 @@ img {
 
 /* !=====768===== */
 @media screen and (min-width: 768px) {
-  .header {
+  .header-section {
     max-width: 768px;
   }
 
@@ -252,7 +252,7 @@ img {
     height: 44px;
   }
 
-  .menu-link-wrapper {
+  .menu-phone-wrapper {
     width: 137px;
     padding: 14px 28px;
     border-radius: 15px;
@@ -276,7 +276,7 @@ img {
 
 /* !=====1280 */
 @media screen and (min-width:1280px) {
-  .header {
+  .header-section {
     max-width: 1280px;
     padding-top: 22px;
     padding-bottom: 102px;
@@ -368,7 +368,7 @@ img {
 
 /* !=====1440 */
 @media screen and (min-width:1440px) {
-  .header {
+  .header-section {
     max-width: 1440px;
   }
 
