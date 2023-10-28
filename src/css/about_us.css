@@ -1,6 +1,6 @@
 .about-us{
     background-color: #1C2225;
-    padding: 80px 0;
+    padding: 80px 20px;
 }
 
 .title {
@@ -14,11 +14,15 @@
     text-align: left;
     margin-bottom: 40px;
 }
-.features-list {
-    gap: 40px;
-    display: flex;
-    margin: 0 auto;
-    flex-wrap: wrap;
+.about-us-container{
+max-width: 335px;
+display: flex;
+flex-direction: column;
+width: 100%;
+margin: 0 auto;
+flex-wrap: wrap;
+justify-content: center;
+
 }
 .title-text-first {
     color: rgba(252, 249, 249, 0.40);
@@ -29,6 +33,7 @@
     line-height: normal;
     letter-spacing: -0.56px;
     margin-bottom: 20px;
+    flex-direction: column;
 }
 .title-text-second {
     color: rgba(252, 249, 249, 0.40);
@@ -38,10 +43,14 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.56px;
-    margin-bottom: 500px;
+    margin-bottom: 50px;
 }
 .title-picture {
     border-radius: 4px;
+    align-items: center;
+
 }
 
-
+@media screen and (min-width: 768px) {
+    
+}
