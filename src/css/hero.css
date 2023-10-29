@@ -1,28 +1,18 @@
-body {
-  margin: 0;
-}
+
 .hero {
-  font-family: 'Manrope', sans serif;
   background-color: #1c2225;
   color: #fcf9f9;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  margin: 0;
 }
 .hero .container {
-  min-width: 320px;
-  max-width: 375px;
   padding: 60px 20px 80px;
-  margin: 0 auto;
   position: relative;
-  overflow: hidden;
 }
 .hero-title {
   font-size: 44px;
   line-height: 1.22;
   letter-spacing: -0.03em;
   font-weight: 400;
+  max-width: 335px;
 }
 .hero-title span {
   color: #ecd979;
@@ -78,6 +68,7 @@ body {
 @media screen and (min-width: 768px) {
   .hero .container {
     padding: 106px 32px 100px;
+    width: 704px;
     max-width: 768px;
   }
   .hero-title {
@@ -125,6 +116,7 @@ body {
 @media screen and (min-width: 1280px) {
   .hero .container {
     padding: 100px 100px 150px;
+    width: 1080px;
     max-width: 1280px;
   }
   .hero-img {
@@ -151,6 +143,7 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .hero .container {
+    width: 1240px;
     max-width: 1440px;
   }
   .hero-title {
