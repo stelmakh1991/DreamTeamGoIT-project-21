@@ -3,9 +3,6 @@ body{
     background-color: #2c2c2d;
 }
 
-.container{
-    /* background-color: #6f7071; */
-}
 footer {
     border-top: 1px solid #FCF9F91A;
 
@@ -50,6 +47,8 @@ footer {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.29;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link-item:hover{
     color: rgba(236, 217, 121, 1);
