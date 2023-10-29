@@ -69,6 +69,9 @@ body {
 .hero-star {
   display: none;
 }
+.hero-star-svg {
+  fill: #ECD979;
+}
 .hero-map-img {
   display: none;
 }
