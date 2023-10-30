@@ -1,8 +1,7 @@
-.about-us{
+.shirt{
     background-color: #1C2225;
-    padding: 80px 20px;
+    position: relative;
 }
-
 .title {
     color: #FCF9F9;
     font-family: Manrope;
@@ -15,13 +14,13 @@
     margin-bottom: 40px;
 }
 .about-us-container{
-max-width: 335px;
+width: 335px;
 display: flex;
 flex-direction: column;
 width: 100%;
-margin: 0 auto;
-flex-wrap: wrap;
-justify-content: center;
+margin: 0;
+position: relative;
+padding-right: 20px;
 
 }
 .title-text-first {
@@ -48,19 +47,46 @@ justify-content: center;
 .title-picture {
     border-radius: 4px;
     align-items: center;
-
+    max-width: 335px;
 }
 
-@media screen and (min-width: 768px) {
-    
-}
-@media screen and (min-width: px) {
-    
+
+@media screen and (min-width: 768px) {  
+    .container {
+        padding: 0 32px;
+    }
+    .about-us-container {
+        max-width: 704px;
+    }
+
+    .title {
+        font-size: 44px;
+        line-height: 64px; /* 145.455% */
+        letter-spacing: -1.32px;
+    }
+
+    .title-text-first {
+        font-size: 16px;
+        letter-spacing: -0.64px;
+    }
+    .title-text-second{
+        margin-bottom: 40px;
+        font-size: 16px;
+        letter-spacing: -0.64px;
+    }
 }
 @media screen and (min-width: 1158px) {
+    .container {
+    padding: 0 100px;
+    }
+    .about-us-container {
+        max-width: 1080px;
+        display: flex;
+}
+.title-picture {
+    position: absolute;
 
 }
-@media screen and (min-width: 1440px) {
-    
 }
-    
+@media screen and (min-width: 1440px) {
+}
