@@ -1,0 +1,92 @@
+.your-order {
+    background-color: #1C2225;
+}
+
+.back-img {
+    background-image: url(../img/your_order/mobile/Image-mob.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+    max-width: 375px;
+    height: 550px;
+    margin-bottom: 80px;
+}
+
+.order-title {
+    color:#FCF9F9;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+.order-title-color {
+    color:#ECD979;
+}
+
+.order-form {
+}
+
+.order-item:not(:last-child) {
+    max-width: 100%;
+    height: 47px;
+    margin-bottom: 20px;
+}
+
+.order-label {
+}
+
+.form-input {
+    background-color: transparent;
+    padding: 14px 16px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    outline: transparent;
+    color: rgba(252, 249, 249, 0.50);
+    font-size: 14px;
+    letter-spacing: -0.02em;
+}
+
+.order-comment {
+}
+
+.form-comm {
+    background-color: transparent;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 145px;
+    height: 49px;
+    background-color: transparent;
+    margin: 40px auto 0;
+    padding: 14px 36px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+}
+
+/* .btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 14px 36px;
+} */
+
+.btn-text {
+    color: #FCF9F9;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.btn-icon {
+    fill: #ECD979;
+}
