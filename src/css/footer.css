@@ -1,20 +1,12 @@
-body{
-    margin: 0;
-    background-color: #2c2c2d;
-}
 
 footer {
     border-top: 1px solid #FCF9F91A;
-
 }
 
 .footer-container{
-    display: flex;
     background-image: url(../img/footer/mobile/emblem-mob.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    max-width: 375px;
-    margin: 0 auto;
     background-color: #1c2225;
 }
 @media (min-device-pixel-ratio: 2),
@@ -24,44 +16,38 @@ footer {
     background-image: url(../img/footer/mobile/emblem-mob-2x.png);
     }
 }
-.footer-flex{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
+
 
 .footer-content{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 40px 20px 292px;
+    padding-top: 40px;
+    padding-bottom: 292px;
 }
 .footer-link-list{
-    display: flex;
-    flex-wrap: wrap;
     text-transform: uppercase;
     color:#fcf9f9;
-    gap: 40px;
+    gap: 25px 40px;
     margin-bottom: 40px;
 }
 .footer-link-item{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.29;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    line-height: 1.285;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+.footer-link-item:nth-child(1){
+    width: 107px;
+}
+.footer-link-item:nth-child(2){
+    order: 3;
+}
+.footer-link-item:nth-child(4){
+    order: 3;
 }
 .footer-link-item:hover{
     color: rgba(236, 217, 121, 1);
 }
-.footer-group-list{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
 .footer-logo-descriptions{
     color: #fcf9f9;
     font-size: 44px;
-    line-height: 1.23;
+    line-height: 1.227;
     letter-spacing: -0.03em;
     font-weight: 400;
     margin-bottom: 80px;
@@ -74,15 +60,12 @@ footer {
 
 
 
-
 /* ============================================ 768 ========================================= */
 
 
 
 @media screen and (min-width: 768px) {
 .footer-container{
-    max-width: 768px;
-    flex-direction: row;
     background-image: url(../img/footer/tablet/emblem-tab.png);
     background-repeat: no-repeat;
     background-position: right;  
@@ -95,18 +78,22 @@ footer {
     }
 }
 .footer-content {
-    padding: 40px 258px 40px 32px;
+    padding-bottom: 40px;
+    padding-right: 238px;
 }
 .footer-link-list{
     margin-bottom: 80px;
     gap: 25px;
 }
+.footer-link-item:nth-child(1) {
+    width: auto;
+}
 
-.footer-group-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 25px;
-    }
+.footer-link-item:nth-child(3) {
+    order: 3;
+}
+
+
 .footer-logo-descriptions{
     font-size: 54px;
     line-height: 1.185;
@@ -120,36 +107,30 @@ footer {
 
 
 @media screen and (min-width: 1280px) {
-    .container{
-        max-width: 1280px;
-        margin: 0 auto;
-    }
+
+.footer-container {
+    background-image: url(../img/footer/desctop/emblem-desc.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
     .footer-container {
-        max-width: 1280px;
-        flex-direction: row;
-        background-image: url(../img/footer/desctop/emblem-desc.png);
-        background-repeat: no-repeat;
-        background-position: right;
-
+        background-image: url(../img/footer/desctop/emblem-desc-2x.png);
     }
-
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .footer-container {
-            background-image: url(../img/footer/desctop/emblem-desc-2x.png);
-        }
-    }
+}
 .footer-content {
-    padding: 40px 426px 40px 100px;
+    padding-right: 326px;
 }
 .footer-link-list {
-    margin-bottom: 115px;
-    gap: 25px;
+    margin-bottom: 117px;
 }
 .footer-logo-descriptions {
     font-size: 64px;
-    line-height: 1.16;
+    line-height: 1.156;
 }
 }
 
@@ -157,55 +138,34 @@ footer {
 
 
 @media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-        margin: 0 auto;
-    }
 
+.footer-container {
+    background-image: url(../img/footer/desctop1440/emblem-desc1440.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
     .footer-container {
-        max-width: 1440px;
-        flex-direction: row;
-        background-image: url(../img/footer/desctop1440/emblem-desc1440.png);
-        background-repeat: no-repeat;
-        background-position: right;
-
-    }
-
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .footer-container {
-            background-image: url(../img/footer/desctop1440/emblem-desc1440-2x.png);
-        }
-    }
-
-    .footer-content {
-        padding: 40px 586px 40px 100px;
-    }
-
-    .footer-link-list {
-        margin-bottom: 115px;
-        gap: 25px;
-    }
-
-    .footer-logo-descriptions {
-        font-size: 64px;
-        line-height: 1.16;
+        background-image: url(../img/footer/desctop1440/emblem-desc1440-2x.png);
     }
 }
+
+.footer-content {
+    padding-right: 486px;
+}
+}
+
 
 /* ============================================ 320 ========================================= */
 
 
 
 @media screen and (max-width: 320px) {
-.container {
-    max-width: 320px;
-    margin: 0 auto;
+.footer-link-list{
+    flex-direction: column;
 }
-
-.footer-link-list {
-    gap: 25px;
-}
-
 }
