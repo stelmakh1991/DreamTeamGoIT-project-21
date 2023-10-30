@@ -4,7 +4,8 @@
   color: #fcf9f9;
 }
 .hero .container {
-  padding: 60px 20px 80px;
+  padding-top: 60px;
+  padding-bottom: 80px;
   position: relative;
 }
 .hero-title {
@@ -67,9 +68,8 @@
 }
 @media screen and (min-width: 768px) {
   .hero .container {
-    padding: 106px 32px 100px;
-    width: 704px;
-    max-width: 768px;
+    padding-top: 106px;
+    padding-bottom: 100px;
   }
   .hero-title {
     font-size: 54px;
@@ -109,15 +109,14 @@
     display: block;
     position: absolute;
     bottom: 0;
-    right: 23px;
+    right: 32px;
     width: 139px;
   }
 }
 @media screen and (min-width: 1280px) {
   .hero .container {
-    padding: 100px 100px 150px;
-    width: 1080px;
-    max-width: 1280px;
+    padding-top: 100px;
+    padding-bottom: 150px;
   }
   .hero-img {
     width: 392px;
@@ -142,10 +141,6 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .hero .container {
-    width: 1240px;
-    max-width: 1440px;
-  }
   .hero-title {
     font-size: 64px;
     line-height: 1.15;
@@ -156,5 +151,8 @@
   }
   .hero-star {
     top: 166px;
+  }
+  .hero-map-img {
+    bottom: 150px;
   }
 }
