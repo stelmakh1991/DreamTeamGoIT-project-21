@@ -36,7 +36,7 @@
   z-index: 3;
   visibility: hidden;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: auto;
 
   display: flex;
   flex-direction: column;
