@@ -1,5 +1,6 @@
 .your-order {
     background-color: #1C2225;
+    padding: 20px 0;
 }
 
 .back-img {
@@ -13,11 +14,11 @@
     margin-bottom: 80px;
 }
 
+.order {
+}
+
 .order-title {
-    color:#FCF9F9;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 1.38;
+    line-height: 1.37;
     letter-spacing: -0.03em;
     margin-bottom: 40px;
 }
@@ -30,8 +31,6 @@
 }
 
 .order-item:not(:last-child) {
-    max-width: 100%;
-    height: 47px;
     margin-bottom: 20px;
 }
 
@@ -39,6 +38,7 @@
 }
 
 .form-input {
+    min-width: 100%;
     background-color: transparent;
     padding: 14px 16px;
     border-radius: 15px;
@@ -50,10 +50,23 @@
 }
 
 .order-comment {
+    margin-bottom: 40px;
 }
 
 .form-comm {
+    width: 100%;
+    height: 196px;
+    font-family: inherit;
+    padding: 14px 16px;
+    color: rgba(252, 249, 249, 0.50);
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.02em;
     background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    outline: transparent;
+    resize: none;
 }
 
 .form-btn {
@@ -64,20 +77,11 @@
     width: 145px;
     height: 49px;
     background-color: transparent;
-    margin: 40px auto 0;
-    padding: 14px 36px;
+    margin: 0 auto;
+    /* padding: 14px 36px; */
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
 }
-
-/* .btn-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    padding: 14px 36px;
-} */
 
 .btn-text {
     color: #FCF9F9;
