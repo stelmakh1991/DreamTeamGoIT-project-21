@@ -1,9 +1,9 @@
-const mob_menu = document.querySelector('.mob-menu');  // mob-menu - це div до якого додається і забирається класс is-open як в домашці руками писали
 
-document.querySelector(".burger-btn-open").addEventListener('touchstart', () => {  // burger-btn-open - класс до бургер кнопки
+const mob_menu = document.querySelector('.menu'); 
+
+document.querySelector(".header-btn").addEventListener('touchstart', () => {
     mob_menu.classList.add('is-open');
 });
-document.querySelector(".modal-btn-close").addEventListener('touchstart', () => {  // modal-btn-close - класс до кнопки закриття моб-меню 
+document.querySelector(".menu-btn").addEventListener('touchstart', () => {
     mob_menu.classList.remove('is-open');
 });
-
