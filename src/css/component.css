@@ -24,7 +24,6 @@ h2 {
     letter-spacing: -0.96px;
 }
 .container {
-    display: flex;
     max-width: 375px;    
     margin: 0 auto;
     padding: 0 20px;
