@@ -32,6 +32,7 @@
 
 .order-item:not(:last-child) {
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .order-label {
@@ -54,7 +55,7 @@
 }
 
 .form-comm {
-    width: 100%;
+    min-width: 100%;
     height: 196px;
     font-family: inherit;
     padding: 14px 16px;
@@ -78,7 +79,6 @@
     height: 49px;
     background-color: transparent;
     margin: 0 auto;
-    /* padding: 14px 36px; */
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
 }
