@@ -21,8 +21,10 @@
   }
 }
 
-.order {
-    padding-bottom: 100px;
+.order-part {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 .order-title {
@@ -35,15 +37,9 @@
     color:#ECD979;
 }
 
-.order-form {
-}
-
 .order-item:not(:last-child) {
     margin-bottom: 20px;
     width: 100%;
-}
-
-.order-label {
 }
 
 .form-input {
@@ -120,6 +116,14 @@
     fill: #ECD979;
 }
 
+.ornament {
+    display: none;
+    max-width: 638px;
+    height: 521px;
+    margin-left: auto;
+    margin-bottom: 79px;
+}
+
 @media screen and (min-width: 768px) {
     .back-img {
         background-image: url(../img/your_order/tablet/Image-tab.jpg);
@@ -134,6 +138,26 @@
         .back-img {
         background-image: url(../img/your_order/tablet/Image-tab-2x.jpg);
         }
+    }
+    
+    .order-part {
+        background-image: url(../img/your_order/tablet/emblem4-tab.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left bottom;
+        background-size: 355px 484px;
+    }
+
+    @media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .order-part {
+        background-image: url(../img/your_order/tablet/emblem4-tab-2x.png);
+        }
+}
+
+    .order {
+        /* padding-bottom: 100px; */
     }
 
     .order-title {
@@ -162,4 +186,9 @@
     .btn-text {
         font-size: 16px;
     }
+
+    .ornament {
+        display: block;
+    }
+
 }
