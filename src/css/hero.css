@@ -1,6 +1,7 @@
 .hero {
   background-color: #1c2225;
   color: #fcf9f9;
+  width: 100%;
 }
 .hero .container {
   padding-top: 60px;
@@ -144,7 +145,8 @@
   .hero-title {
     font-size: 64px;
     line-height: 1.15;
-    max-width: 630px;
+    max-width: 632px;
+    padding-right: 2px;
   }
   .hero-title-wrap {
     top: 166px;
