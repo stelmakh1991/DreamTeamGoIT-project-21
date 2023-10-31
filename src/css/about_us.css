@@ -1,6 +1,8 @@
 .shirt{
     background-color: #1C2225;
-    position: relative;
+    background-image: 
+    url(../images/people-office-tab.jpg);
+}
 }
 .title {
     color: #FCF9F9;
