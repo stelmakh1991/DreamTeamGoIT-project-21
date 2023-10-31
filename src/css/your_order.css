@@ -118,8 +118,8 @@
 
 .ornament {
     display: none;
-    max-width: 638px;
-    height: 521px;
+    /* max-width: 638px;
+    height: 521px; */
     margin-left: auto;
     margin-bottom: 79px;
 }
@@ -191,4 +191,47 @@
         display: block;
     }
 
+}
+
+@media screen and (min-width: 1280px) {
+    .back-img {
+        background-image: url(../img/your_order/desctop/Image-desc.jpg);
+        max-width: 1280px;
+        height: 776px;
+        margin-bottom: 150px;
+    }
+
+    @media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .back-img {
+        background-image: url(../img/your_order/desctop/image-desc-2x.jpg);
+        }
+    }
+
+    .container {
+        padding-left: 64px;
+    }
+
+    .order-part {
+        flex-direction: row-reverse;
+        gap: 50px;
+        background-image: url(../img/your_order/desctop/emblem4-desc.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left bottom;
+        background-size: 289px 484px;
+    }
+
+    @media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .order-part {
+        background-image: url(../img/your_order/desctop/emblem4-desc-2x.png);
+        }
+    }
+    
+    .ornament {
+        margin-bottom: 119px;
+    }
 }
