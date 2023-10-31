@@ -118,10 +118,9 @@
 
 .ornament {
     display: none;
-    /* max-width: 638px;
-    height: 521px; */
     margin-left: auto;
     margin-bottom: 79px;
+    border-radius: 4px;
 }
 
 @media screen and (min-width: 768px) {
@@ -156,10 +155,6 @@
         }
 }
 
-    .order {
-        /* padding-bottom: 100px; */
-    }
-
     .order-title {
         max-width: 542px;
         font-size: 44px;
@@ -190,14 +185,18 @@
     .ornament {
         display: block;
     }
+}
 
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .container {
+        padding-left: 64px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
     .back-img {
         background-image: url(../img/your_order/desctop/Image-desc.jpg);
         max-width: 1280px;
-        height: 776px;
         margin-bottom: 150px;
     }
 
@@ -209,17 +208,10 @@
         }
     }
 
-    .container {
-        padding-left: 64px;
-    }
-
     .order-part {
         flex-direction: row-reverse;
         gap: 50px;
         background-image: url(../img/your_order/desctop/emblem4-desc.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left bottom;
         background-size: 289px 484px;
     }
 
@@ -233,5 +225,41 @@
     
     .ornament {
         margin-bottom: 119px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .back-img {
+        background-image: url(../img/your_order/desctop1440/Image-desc1440.jpg);
+        max-width: 1440px;
+    }
+
+    @media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .back-img {
+        background-image: url(../img/your_order/desctop1440/Image-desc1440-2x.jpg);
+        }
+    }
+
+    .order-part {
+        flex-direction: row-reverse;
+        background-image: url(../img/your_order/desctop1440/emblem4-desc1440.png);
+        background-size: 325px 484px;
+    }
+
+    .order-title {
+        max-width: 666px;
+        font-size: 44px;
+        line-height: 1.32;
+    }
+
+    @media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .order-part {
+        background-image: url(../img/your_order/desctop1440/emblem4-desc1440-2x.png);
+        }
     }
 }
