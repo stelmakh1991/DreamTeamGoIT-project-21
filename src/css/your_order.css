@@ -1,6 +1,5 @@
 .your-order {
     background-color: #1C2225;
-    padding: 20px 0;
 }
 
 .back-img {
@@ -11,10 +10,19 @@
     padding: 0;
     max-width: 375px;
     height: 550px;
-    margin-bottom: 80px;
+    margin: 0 auto 80px;
+}
+
+@media (min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .back-img {
+  background-image: url(../img/your_order/mobile/Image-mob-2x.jpg);
+  }
 }
 
 .order {
+    padding-bottom: 100px;
 }
 
 .order-title {
@@ -45,9 +53,15 @@
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
     outline: transparent;
-    color: rgba(252, 249, 249, 0.50);
+    color: #FCF9F9;
     font-size: 14px;
     letter-spacing: -0.02em;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input:focus-within,
+.form-input:focus {
+    border-color: rgba(252, 249, 249, 0.60);
 }
 
 .order-comment {
@@ -59,7 +73,7 @@
     height: 196px;
     font-family: inherit;
     padding: 14px 16px;
-    color: rgba(252, 249, 249, 0.50);
+    color: #FCF9F9;
     font-size: 14px;
     line-height: normal;
     letter-spacing: -0.02em;
@@ -68,6 +82,12 @@
     border: 1px solid rgba(252, 249, 249, 0.10);
     outline: transparent;
     resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-comm:focus-within,
+.form-comm:focus {
+    border-color: rgba(252, 249, 249, 0.60);
 }
 
 .form-btn {
@@ -75,12 +95,17 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 145px;
-    height: 49px;
+    padding: 14px 36px;
     background-color: transparent;
     margin: 0 auto;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-btn:hover,
+.form-btn:focus {
+    border-color: #ECD979;
 }
 
 .btn-text {
@@ -93,4 +118,48 @@
 
 .btn-icon {
     fill: #ECD979;
+}
+
+@media screen and (min-width: 768px) {
+    .back-img {
+        background-image: url(../img/your_order/tablet/Image-tab.jpg);
+        max-width: 768px;
+        height: 776px;
+        margin-bottom: 100px;
+    }
+
+    @media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .back-img {
+        background-image: url(../img/your_order/tablet/Image-tab-2x.jpg);
+        }
+    }
+
+    .order-title {
+        max-width: 542px;
+        font-size: 44px;
+        line-height: 1.32;
+    }
+
+    .order-form {
+        max-width: 508px;
+    }
+
+    .form-input {
+        font-size: 16px;
+    }
+
+    .form-comm {
+        font-size: 16px;
+    }
+
+    .form-btn {
+        padding: 14px 39px;
+        margin: 0 auto 0 0;
+    }
+
+    .btn-text {
+        font-size: 16px;
+    }
 }
