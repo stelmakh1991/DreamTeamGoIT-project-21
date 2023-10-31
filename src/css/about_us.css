@@ -3,17 +3,28 @@
     background-image: 
     url(../img/about_us/mobile/emblem3-mob.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .shirt {
         background-image: 
-        url(./src/img/about_us/mobile/emblem3-mob-2x.png);
+        url(../img/about_us/mobile/emblem3-mob-2x.png);
         background-repeat: no-repeat;
         background-position: right bottom;
     }
+}
+.about-us-container{
+width: 335px;
+display: flex;
+flex-direction: column;
+width: 100%;
+margin: 0 auto;
+position: relative;
+
 }
 .title {
     color: #FCF9F9;
@@ -25,16 +36,6 @@
     letter-spacing: -0.96px;
     text-align: left;
     margin-bottom: 40px;
-}
-.about-us-container{
-width: 335px;
-display: flex;
-flex-direction: column;
-width: 100%;
-margin: 0;
-position: relative;
-padding-right: 20px;
-
 }
 .title-text-first {
     color: rgba(252, 249, 249, 0.40);
@@ -81,8 +82,13 @@ padding-right: 20px;
         background-position: right bottom;
     }
 }
-    }
-
+.container {
+    display: flex;
+    width: 704px;
+}
+.about-us-container {
+    max-width: 704px;
+}
     .title {
         font-size: 44px;
         line-height: 64px; /* 145.455% */
@@ -98,6 +104,12 @@ padding-right: 20px;
         font-size: 16px;
         letter-spacing: -0.64px;
     }
+    .title-picture{
+        max-width: 100%;
+        height: auto;
+        max-height: 545px;
+    }
+}
 
 @media screen and (min-width: 1158px) {
     .shirt {
@@ -111,19 +123,34 @@ padding-right: 20px;
 (min-resolution: 2dppx) {
     .shirt {
         background-image: 
-        url(../img/about_us/desctop/shirt-desc-2x.jpg);
+        url(../img/about_us/desctop/emblem3-desc-2x.png);
         background-repeat: no-repeat;
         background-position: right bottom;
     }
-
+.container {
+    width: 1080px;
+}
     .about-us-container {
         display: flex;
-}
-.title-picture {
-    position: absolute;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1080px;
+    }
 
+    .text-container {
+        width: 436px;
+    }
+
+    .title-picture {
+        max-width: 594px;
+        height: 545px;
+    }
 }
-}
+
+
+  }
+
 @media screen and (min-width: 1440px){    
     .shirt {
     background-image: 
@@ -131,14 +158,26 @@ padding-right: 20px;
     background-repeat: no-repeat;
     background-position: right bottom;
 }
+
+
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-.shirt {
-    background-image: 
+.shirt { background-image: 
     url(../img/about_us/desctop1440/emblem3-desc1440-2x.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
-}
-}
+    background-position: right bottom;}}
+.container {
+        width: 1240px;
+    }
+    .about-us-container {
+        max-width: 1240px;
+    }
+    .text-container {
+        width: 481px;
+    }
+    .title-picture {
+        max-width: 709px;
+
+    }
 }
