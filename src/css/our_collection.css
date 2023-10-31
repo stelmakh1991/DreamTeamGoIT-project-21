@@ -1,26 +1,10 @@
-.container {
-  box-sizing: border-box;
-}
-@media screen and (min-width: 768px) {
-  .container {
-    min-width: 768px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .container {
-    min-width: 1280px;
-  }
-}
-
 .collection {
-  box-sizing: border-box;
   background-color: #1c2225;
   padding-bottom: 80px;
-  padding-top: 18px;
   background-image: url(../img/our_collection/mobile/emblem2-mob.png);
   background-repeat: no-repeat;
   background-position-x: left;
-  background-position-y: 300px;
+  background-position-y: 298px;
   background-size: 72px 177px;
 }
 @media (min-device-pixel-ratio: 2),
@@ -32,9 +16,8 @@
 }
 @media screen and (min-width: 768px) {
   .collection {
-    padding-top: 50px;
     padding-bottom: 100px;
-    background-position-y: 300px;
+    background-position-y: 221px;
     background-image: url(../img/our_collection/tablet/emblem2-tab.png);
     background-size: 100px;
   }
@@ -53,7 +36,6 @@
     padding-top: 70px;
     background-image: url(../img/our_collection/desctop/emblem2-desc-2x.png);
     background-size: 150px;
-    background-position-y: 270px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -67,17 +49,13 @@
 .collection-title {
   text-align: center;
   color: #fcf9f9;
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 1.38;
-  letter-spacing: -0.96px;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   .collection-title {
     line-height: 1.45;
-    letter-spacing: -1.32px;
     font-size: 44px;
+    letter-spacing: -0.08em;
   }
 }
 .collection-item {
@@ -87,22 +65,20 @@
 }
 @media screen and (min-width: 768px) {
   .collection-item {
-    width: 342px;
-    /* width: calc(100%-20px) / 2; */
+    width: calc((100%-20px) / 2);
   }
 }
 @media screen and (min-width: 1280px) {
   .collection-item {
-    width: 347px;
+    width: calc((100%-40px) / 3);
   }
 }
 .collection-name {
   overflow: hidden;
-
   text-overflow: ellipsis;
   font-weight: 500;
   line-height: 1;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   margin-bottom: 8px;
 }
@@ -118,11 +94,15 @@
 }
 .collection-price {
   line-height: 14px;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.04em;
 }
 .collection-photo {
   border-radius: 4px;
-  width: 335px;
+}
+@media screen and (min-width: 375px) {
+  .collection-photo {
+    width: 335px;
+  }
 }
 @media screen and (min-width: 768px) {
   .collection-photo {
