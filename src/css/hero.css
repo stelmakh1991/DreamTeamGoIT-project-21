@@ -56,11 +56,12 @@
   width: 335px;
   height: 545px;
 }
+.hero-star-img {
+  width: 52px;
+  height: 51px;
+}
 .hero-star {
   display: none;
-}
-.hero-star-svg {
-  fill: #ecd979;
 }
 .hero-map-img {
   display: none;
