@@ -5,6 +5,9 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     width: 100%;
+    background-position-x: 125px;
+    background-position-y: 567px;
+    background-size: 100%;
   
 }
 @media (min-device-pixel-ratio: 2),
@@ -14,11 +17,10 @@
         background-image: 
         url(../img/about_us/mobile/emblem3-mob-2x.png);
         background-repeat: no-repeat;
-        background-position: bottom right;
+
     }
 }
 .about-us-container{
-
 display: flex;
 flex-direction: column;
 width: 100%;
@@ -74,7 +76,7 @@ max-width: 335px;
         background-image: 
         url(../img/about_us/tablet/emble3-tab.png);
         background-repeat: no-repeat;
-        background-position: bottom right;
+
     }
     @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -83,7 +85,7 @@ max-width: 335px;
         background-image: 
         url(../img/about_us/tablet/emble3-tab-2x.png);
         background-repeat: no-repeat;
-        background-position: bottom right;
+
     }
 }
 .container {
@@ -123,7 +125,7 @@ max-width: 335px;
         background-image: 
         url(../img/about_us/desctop/emblem3-desc.png);
         background-repeat: no-repeat;
-        background-position:bottom right;
+
     }
     @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -132,7 +134,7 @@ max-width: 335px;
         background-image: 
         url(../img/about_us/desctop/emblem3-desc-2x.png);
         background-repeat: no-repeat;
-        background-position:bottom right}
+     }
 .container {
     width: 1080px;
 }
@@ -162,7 +164,7 @@ max-width: 335px;
     background-image: 
     url(../img/about_us/desctop1440/emblem3-desc1440.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
+
 }
 
 
@@ -172,7 +174,7 @@ max-width: 335px;
 .shirt { background-image: 
     url(../img/about_us/desctop1440/emblem3-desc1440-2x.png);
     background-repeat: no-repeat;
-    background-position: right bottom;}}
+  }}
 .container {
         width: 1240px;
     }
