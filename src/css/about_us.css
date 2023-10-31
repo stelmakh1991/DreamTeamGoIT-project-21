@@ -25,7 +25,6 @@ position: relative;
 padding-bottom: 80px;
 }
 .text-container {
-max-width: 335px;
 }
 
 .title {
@@ -63,7 +62,6 @@ max-width: 335px;
 .title-picture {
     display: flex;
     border-radius: 4px;
-    max-width: 100%
 }
 
 
