@@ -3,7 +3,7 @@
     background-image: 
     url(../img/about_us/mobile/emblem3-mob.png);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom right;
     width: 100%;
   
 }
@@ -14,11 +14,11 @@
         background-image: 
         url(../img/about_us/mobile/emblem3-mob-2x.png);
         background-repeat: no-repeat;
-        background-position: right bottom;
+        background-position: bottom right;
     }
 }
 .about-us-container{
-width: 335px;
+
 display: flex;
 flex-direction: column;
 width: 100%;
@@ -26,6 +26,10 @@ margin: 0 auto;
 position: relative;
 
 }
+.text-container {
+max-width: 335px;
+}
+
 .title {
     color: #FCF9F9;
     font-family: Manrope;
@@ -70,7 +74,7 @@ position: relative;
         background-image: 
         url(../img/about_us/tablet/emble3-tab.png);
         background-repeat: no-repeat;
-        background-position: right bottom;
+        background-position: bottom right;
     }
     @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -79,7 +83,7 @@ position: relative;
         background-image: 
         url(../img/about_us/tablet/emble3-tab-2x.png);
         background-repeat: no-repeat;
-        background-position: right bottom;
+        background-position: bottom right;
     }
 }
 .container {
@@ -116,7 +120,7 @@ position: relative;
         background-image: 
         url(../img/about_us/desctop/emblem3-desc.png);
         background-repeat: no-repeat;
-        background-position: right bottom;
+        background-position:bottom right;
     }
     @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -125,8 +129,7 @@ position: relative;
         background-image: 
         url(../img/about_us/desctop/emblem3-desc-2x.png);
         background-repeat: no-repeat;
-        background-position: right bottom;
-    }
+        background-position:bottom right}
 .container {
     width: 1080px;
 }
