@@ -142,11 +142,12 @@ padding-bottom: 80px;
         max-width: 1080px;
         padding-bottom: 150px;
         padding-right: 100px;
-        margin-right: 50px;
+    
     }
 
     .text-container {
         width: 436px;
+        margin-right: 50px;
     }
 
     .title-picture {
