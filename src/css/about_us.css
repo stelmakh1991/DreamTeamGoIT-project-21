@@ -24,8 +24,6 @@ margin: 0 auto;
 position: relative;
 padding-bottom: 80px;
 }
-.text-container {
-}
 
 .title {
     color: #FCF9F9;
@@ -111,9 +109,6 @@ padding-bottom: 80px;
     }
     .title-picture{
         display: block;
-        max-width: 100%;
-        height: auto;
-        max-height: 545px;
     }
 }
 
@@ -146,7 +141,8 @@ padding-bottom: 80px;
         justify-content: space-between;
         max-width: 1080px;
         padding-bottom: 150px;
-        gap: 50px;
+        padding-right: 100px;
+        margin-right: 50px;
     }
 
     .text-container {
@@ -154,9 +150,6 @@ padding-bottom: 80px;
     }
 
     .title-picture {
-        max-width: 594px;
-        width: 100%;
-        padding-right: 100px;
         display: block;
     }
 }
@@ -186,11 +179,10 @@ padding-bottom: 80px;
         max-width: 1240px;
     }
     .text-container {
-        width: 481px;
+        max-width: 481px;
     }
     .title-picture {
-        max-width: 709px;
-        display: flex
+        display: block;
     }
 }
 }
