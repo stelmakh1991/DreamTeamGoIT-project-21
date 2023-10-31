@@ -90,6 +90,9 @@ max-width: 335px;
     display: flex;
     width: 704px;
 }
+.text-container {
+    max-width: 704px;
+    }
 .about-us-container {
     max-width: 704px;
 }
