@@ -1,8 +1,19 @@
 .shirt{
     background-color: #1C2225;
     background-image: 
-    url(../images/people-office-tab.jpg);
+    url(../img/about_us/mobile/emblem3-mob.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .shirt {
+        background-image: 
+        url(./src/img/about_us/mobile/emblem3-mob-2x.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
 }
 .title {
     color: #FCF9F9;
@@ -54,11 +65,22 @@ padding-right: 20px;
 
 
 @media screen and (min-width: 768px) {  
-    .container {
-        padding: 0 32px;
+    .shirt {
+        background-image: 
+        url(../img/about_us/tablet/emble3-tab.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
     }
-    .about-us-container {
-        max-width: 704px;
+    @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .shirt {
+        background-image: 
+        url(../img/about_us/tablet/emble3-tab-2x.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+}
     }
 
     .title {
@@ -76,13 +98,25 @@ padding-right: 20px;
         font-size: 16px;
         letter-spacing: -0.64px;
     }
-}
+
 @media screen and (min-width: 1158px) {
-    .container {
-    padding: 0 100px;
+    .shirt {
+        background-image: 
+        url(../img/about_us/desctop/emblem3-desc.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
     }
+    @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .shirt {
+        background-image: 
+        url(../img/about_us/desctop/shirt-desc-2x.jpg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
     .about-us-container {
-        max-width: 1080px;
         display: flex;
 }
 .title-picture {
@@ -90,5 +124,21 @@ padding-right: 20px;
 
 }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px){    
+    .shirt {
+    background-image: 
+    url(../img/about_us/desctop1440/emblem3-desc1440.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.shirt {
+    background-image: 
+    url(../img/about_us/desctop1440/emblem3-desc1440-2x.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+}
 }
