@@ -98,9 +98,8 @@
         background-image: url(./img/about_us/desctop1440/emblem3-desc.png);
         background-repeat: no-repeat;
         background-position: bottom 70px right 0px;
-        background-size: 545px 483px;
+        background-size: 385px 483px;
       }
-
       @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -108,16 +107,17 @@
         background-image: url(./img/about_us/desctop1440/emblem3-desc-2x.png);
         background-repeat: no-repeat;
         background-position: bottom 70px right 0px;
-        background-size: 545px 483px;
+        background-size: 385px 483px;
       }
     }
     .about-us-container {
       display: flex;
       flex-direction: row;
+      padding-bottom: 150px;
     }
   
     .text-container {
-      max-width: 436px;
+  width: 436px;
       margin-right: 50px;
       margin-top: 45.5px;
     }
@@ -126,7 +126,7 @@
       display: block;
     }
     .pictures {
-        max-width: 594px;
+       width: 594px;
       }
   }  
   @media screen and (min-width: 1440px) {
@@ -137,9 +137,9 @@
       background-size: 545px 483px;
     }
     .text-container {
-        max-width: 481px;
+      width: 481px;
       }
-}
+
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -150,9 +150,10 @@
         background-size: 545px 483px;
       }
       .pictures {
-        max-width: 709px;
+        width: 709px;
       }
       .text-container {
         margin-top: 75px;
       }
     }
+  }
