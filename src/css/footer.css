@@ -1,19 +1,22 @@
 
 footer {
     border-top: 1px solid #FCF9F91A;
+    background-color: #1c2225;    
 }
-
+.container{
+    box-sizing: border-box;
+}
 .footer-container{
     background-image: url(../img/footer/mobile/emblem-mob.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-color: #1c2225;
+    background-size: contain;
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-.footer-container {
-    background-image: url(../img/footer/mobile/emblem-mob-2x.png);
+    .footer-container {
+        background-image: url(../img/footer/mobile/emblem-mob-2x.png);    
     }
 }
 
@@ -50,8 +53,11 @@ footer {
     line-height: 1.227;
     letter-spacing: -0.03em;
     font-weight: 400;
+}
+footer p:last-child{
     margin-bottom: 80px;
 }
+
 .orange-color{
     color: rgba(236, 217, 121, 1);
 }
@@ -68,13 +74,15 @@ footer {
 .footer-container{
     background-image: url(../img/footer/tablet/emblem-tab.png);
     background-repeat: no-repeat;
-    background-position: right;  
+    background-position: right;
 }    
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .footer-container {
         background-image: url(../img/footer/tablet/emblem-tab-2x.png);
+        background-repeat: no-repeat;
+        background-position: right;
     }
 }
 .footer-content {
@@ -97,6 +105,10 @@ footer {
 .footer-logo-descriptions{
     font-size: 54px;
     line-height: 1.185;
+    margin-bottom: 0;
+}
+footer p:last-child {
+    margin-bottom: 0;
 }
 }
 
