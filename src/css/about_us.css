@@ -84,7 +84,6 @@ padding-bottom: 80px;
 }
 .container {
     display: flex;
-    width: 704px;
 }
 .text-container {
     max-width: 704px;
@@ -131,9 +130,6 @@ padding-bottom: 80px;
         background-position: bottom 70px right 0px;
         background-size: 385px 483px;
      }
-.container {
-    width: 1080px;
-}
     .about-us-container {
         display: flex;
         flex-direction: row;
