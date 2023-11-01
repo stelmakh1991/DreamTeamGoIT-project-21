@@ -21,13 +21,10 @@ h2 {
     font-size: 32px;
     font-weight: 500;
     line-height: 1.37;
-    letter-spacing: -0.96px;
+    letter-spacing: -0.06em;
 }
-.container {
-    box-sizing: border-box;
-    max-width: 375px;    
+.container {    
     margin: 0 auto;
-    padding: 0 20px;
     height: auto;
 }
 p {
@@ -45,6 +42,12 @@ img {
     display: block;
     width: 100%;
     height: auto;
+}
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+        padding: 0 20px;
+    }
 }
 @media screen and (min-width: 768px) {
     .container {
