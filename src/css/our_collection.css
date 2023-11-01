@@ -1,5 +1,5 @@
 .collection {
-  background-color: #1c2225;
+
   padding-bottom: 80px;
   background-image: url(../img/our_collection/mobile/emblem2-mob.png);
   background-repeat: no-repeat;
@@ -7,7 +7,9 @@
   background-position-y: 298px;
   background-size: 72px 177px;
 }
-
+.collection-s{
+  background-color: #1c2225;
+}
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -52,7 +54,6 @@
 @media screen and (min-width: 1280px) {
   .collection {
     padding-bottom: 150px;
-    padding-top: 70px;
     background-image: url(../img/our_collection/desctop/emblem2-desc-2x.png);
     background-size: 150px;
   }
