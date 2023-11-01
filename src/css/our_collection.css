@@ -21,6 +21,7 @@
     background-position-y: 221px;
     background-image: url(../img/our_collection/tablet/emblem2-tab.png);
     background-size: 100px;
+
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -28,6 +29,23 @@
     .collection {
       background-image: url(../img/our_collection/tablet/emblem2-tab-2x.png);
     }
+  }
+  .collection-title {
+    line-height: 1.45;
+    font-size: 44px;
+    letter-spacing: -0.03em;
+  }
+  .collection-item {
+    width: calc((100% - 20px) / 2);
+  }
+  .collection-name{
+    font-size: 18px;
+  }
+  .collection-price{
+    font-size: 18px;
+  }
+  .collection-photo {
+    width: 342px;
   }
 }
 
@@ -45,6 +63,15 @@
       background-image: url(../img/our_collection/desctop/emblem2-desc-2x.png);
     }
   }
+  .collection-list {
+    row-gap: 40px;
+  }
+  .collection-item {
+    width: calc((100% - 40px) / 3);
+  }
+  .collection-photo {
+    width: 347px;
+  }
 }
 
 .collection-title {
@@ -52,28 +79,14 @@
   color: #fcf9f9;
   margin-bottom: 40px;
 }
-@media screen and (min-width: 768px) {
-  .collection-title {
-    line-height: 1.45;
-    font-size: 44px;
-    letter-spacing: -0.03em;
-  }
-}
+
 .collection-item {
   width: auto;
   height: auto;
   margin: 0;
 }
-@media screen and (min-width: 768px) {
-  .collection-item {
-    width: calc((100% - 20px) / 2);
-  }
-}
-@media screen and (min-width: 1280px) {
-  .collection-item {
-    width: calc((100% - 40px) / 3);
-  }
-}
+
+
 .collection-name {
   font-size: 14px;
   overflow: hidden;
@@ -85,47 +98,24 @@
   margin-bottom: 8px;
   white-space: nowrap;
 }
-@media screen and (min-width: 768px){
-.collection-name{
-  font-size: 18px;
-}
-}
 
 .collection-list {
   gap: 20px;
   justify-content: center;
   row-gap: 20px;
 }
-@media screen and (min-width: 1280px) {
-  .collection-list {
-    row-gap: 40px;
-  }
-}
+
 .collection-price {
   line-height: 1;
   letter-spacing: 0.05em;
 }
-@media screen and (min-width: 768px){
-  .collection-price{
-    font-size: 18px;
-  }
-  }
+
 .collection-photo {
   border-radius: 4px;
 }
 @media screen and (min-width: 375px) {
   .collection-photo {
     width: 335px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .collection-photo {
-    width: 342px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .collection-photo {
-    width: 347px;
   }
 }
 .collection-information {
