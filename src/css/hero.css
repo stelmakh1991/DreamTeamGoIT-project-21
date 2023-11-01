@@ -51,6 +51,7 @@
   align-items: flex-start;
   gap: 20px;
   margin-bottom: 40px;
+  max-width: 335px;
 }
 .hero-img {
   border-radius: 4px;
@@ -83,6 +84,7 @@
     font-size: 16px;
   }
   .hero-title-wrap {
+    max-width: 549px;
     gap: 40px;
   }
   .hero-img {
@@ -135,6 +137,7 @@
     right: 100px;
   }
   .hero-title-wrap {
+    max-width: 518px;
     margin-bottom: 0;
     position: absolute;
     top: 194px;
@@ -149,6 +152,7 @@
     padding-right: 2px;
   }
   .hero-title-wrap {
+    max-width: 632px;
     top: 166px;
   }
   .hero-star {
