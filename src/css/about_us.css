@@ -1,6 +1,6 @@
 .shirt {
   background-color: #1c2225;
-  background-image: url(../img/about_us/mobile/emblem3-mob.png);
+  background-image: url(./img/about_us/mobile/emblem3-mob.png);
   background-repeat: no-repeat;
   background-position: bottom 18px right 0px;
   background-size: 250px 408px;
@@ -10,7 +10,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .shirt {
-    background-image: url(../img/about_us/mobile/emblem3-mob-2x.png);
+    background-image: url(./img/about_us/mobile/emblem3-mob-2x.png);
     background-repeat: no-repeat;
     background-position: bottom 18px right 0px;
     background-size: 250px 408px;
@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 768px) {
   .shirt {
-    background-image: url(../img/about_us/tablet/emble3-tab.png);
+    background-image: url(./img/about_us/tablet/emble3-tab.png);
     background-repeat: no-repeat;
     background-position: bottom 50px right 0px;
     background-size: 369px 484px;
@@ -77,7 +77,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .shirt {
-      background-image: url(../img/about_us/tablet/emble3-tab-2x.png);
+      background-image: url(./img/about_us/tablet/emble3-tab-2x.png);
       background-repeat: no-repeat;
       background-position: bottom 50px right 0px;
       background-size: 369px 484px;
@@ -120,7 +120,7 @@
 
 @media screen and (min-width: 1280px) {
   .shirt {
-    background-image: url(../img/about_us/desctop/emblem3-desc.png);
+    background-image: url(./img/about_us/desctop/emblem3-desc.png);
     background-repeat: no-repeat;
     background-position: bottom 70px right 0px;
     background-size: 385px 483px;
@@ -130,7 +130,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .shirt {
-      background-image: url(../img/about_us/desctop/emblem3-desc-2x.png);
+      background-image: url(./img/about_us/desctop/emblem3-desc-2x.png);
       background-repeat: no-repeat;
       background-position: bottom 70px right 0px;
       background-size: 385px 483px;
@@ -159,7 +159,7 @@
 
 @media screen and (min-width: 1440px) {
   .shirt {
-    background-image: url(../img/about_us/desctop1440/emblem3-desc1440.png);
+    background-image: url(./img/about_us/desctop1440/emblem3-desc1440.png);
     background-repeat: no-repeat;
     background-position: bottom 70px right 0px;
     background-size: 545px 483px;
@@ -169,7 +169,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .shirt {
-      background-image: url(../img/about_us/desctop1440/emblem3-desc1440-2x.png);
+      background-image: url(./img/about_us/desctop1440/emblem3-desc1440-2x.png);
       background-repeat: no-repeat;
       background-position: bottom 70px right 0px;
       background-size: 545px 483px;
