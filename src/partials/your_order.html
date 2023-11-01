@@ -8,18 +8,18 @@
                 <form class="order-form">
                     <div class="order-item">
                         <label class="order-label" for="user-name"></label>
-                        <input type="text" class="form-input" name="user-name" id="user-name" placeholder="Enter your full name" />
+                        <input type="text" class="form-input" name="user-name" id="user-name" pattern="[A-Za-z]+" placeholder="Enter your full name" required />
                     </div>
                     <div class="order-item">
                         <label class="order-label" for="user-email"></label>
-                        <input type="email" class="form-input" name="user-email" id="user-email" placeholder="Enter your email" />
+                        <input type="email" class="form-input" name="user-email" id="user-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter your email" required />
                     </div>
                     <div class="order-comment">
                         <label class="order-label" for="form-comment"></label>
                         <textarea class="form-comm" name="form-comment" id="form-comment" rows="7" placeholder="Comments"></textarea>
                     </div>
                     <button type="submit" class="form-btn">
-                        <p class="btn-text">Send</p>
+                        <span class="btn-text">Send</span>
                         <svg class="btn-icon" width="26" height="10">
                             <use href="../img/icons.svg#icon-pointer">
                             </use>
