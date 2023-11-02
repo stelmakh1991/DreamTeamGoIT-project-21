@@ -50,9 +50,6 @@ footer {
     letter-spacing: -0.03em;
     font-weight: 400;
 }
-footer p:last-child{
-    margin-bottom: 80px;
-}
 
 .orange-color{
     color: rgba(236, 217, 121, 1);
