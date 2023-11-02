@@ -1,11 +1,13 @@
 .collection {
-
+  display: flex;
+  flex-direction: column;
   padding-bottom: 80px;
   background-image: url(../img/our_collection/mobile/emblem2-mob.png);
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: 298px;
   background-size: 72px 177px;
+  justify-content: center;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -44,9 +46,6 @@
   .collection-price{
     font-size: 18px;
   }
-  .collection-photo {
-    width: 342px;
-  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -67,9 +66,6 @@
   }
   .collection-item {
     width: calc((100% - 40px) / 3);
-  }
-  .collection-photo {
-    width: 347px;
   }
 }
 
