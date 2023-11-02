@@ -52,14 +52,14 @@
 @media screen and (min-width: 1280px) {
   .collection {
     padding-bottom: 150px;
-    background-image: url(../img/our_collection/desctop/emblem2-desc-2x.png);
+    background-image: url(./img/our_collection/desctop/emblem2-desc-2x.png);
     background-size: 150px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .collection {
-      background-image: url(../img/our_collection/desctop/emblem2-desc-2x.png);
+      background-image: url(./img/our_collection/desctop/emblem2-desc-2x.png);
     }
   }
   .collection-list {
