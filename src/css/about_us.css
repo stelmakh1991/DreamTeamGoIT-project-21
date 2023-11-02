@@ -1,33 +1,29 @@
 .shirt {
-    background-color: #1C2225;
-    background-image: url(../img/about_us/mobile/emblem3-mob.png);
+    background-color: #1c2225;
+    background-image: url(./img/about_us/mobile/emblem3-mob.png);
     background-repeat: no-repeat;
     background-position: bottom 18px right 0px;
     background-size: 250px 408px;
-}
-
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  }
+  
+  /* Додаткові стилі для retina дисплеїв */
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .shirt {
-        background-image:
-            url(../img/about_us/mobile/emblem3-mob-2x.png);
-        background-repeat: no-repeat;
-        background-position: bottom 18px right 0px;
-        background-size: 250px 408px;
+      background-image: url(./img/about_us/mobile/emblem3-mob-2x.png);
     }
-}
-
-.about-us-container {
+  }
+  
+  .about-us-container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    position: relative;
     padding-bottom: 80px;
-}
-
-.title {
-    color: #FCF9F9;
+  }
+  
+  .title {
+    color: #fcf9f9;
     font-family: Manrope;
     font-size: 32px;
     font-style: normal;
@@ -36,161 +32,128 @@
     letter-spacing: -0.03em;
     text-align: left;
     margin-bottom: 40px;
-}
-
-.title-text-first {
-    color: rgba(252, 249, 249, 0.40);
+  }
+  .text-container{
+    max-width: 335px;
+  }
+  .title-text-first,
+  .title-text-second {
+    color: rgba(252, 249, 249, 0.4);
     font-family: Manrope;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    Line-height: 1.45em;
+    line-height: 1.45em;
     letter-spacing: -0.04em;
-    margin-bottom: 20px;
-    flex-direction: column;
-}
-
-.title-text-second {
-    color: rgba(252, 249, 249, 0.40);
-    font-family: Manrope;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    Line-height: 1.45em;
-    letter-spacing: -0.04em;
+  }
+  
+  .title-text-second {
     margin-bottom: 50px;
-}
-
-.title-picture {
-    display: flex;
+  }
+  .pictures{
+    max-width: 335px;
+  }
+  .title-picture {
     border-radius: 4px;
-}
-
-
-@media screen and (min-width: 768px) {
+    max-width: 100%;
+  }
+  @media screen and (min-width: 768px) {
     .shirt {
-        background-image:
-            url(../img/about_us/tablet/emble3-tab.png);
+      background-image: url(./img/about_us/tablet/emble3-tab.png);
+      background-repeat: no-repeat;
+      background-position: bottom 50px right 0px;
+      background-size: 369px 484px;
+    }
+  
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .shirt {
+        background-image: url(./img/about_us/tablet/emble3-tab-2x.png);
         background-repeat: no-repeat;
         background-position: bottom 50px right 0px;
         background-size: 369px 484px;
+      }
     }
-
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .shirt {
-            background-image:
-                url(../img/about_us/tablet/emble3-tab-2x.png);
-            background-repeat: no-repeat;
-            background-position: bottom 50px right 0px;
-            background-size: 369px 484px;
-        }
-    }
-
-    .container {
-        display: flex;
-    }
-
     .text-container {
         max-width: 704px;
+       
     }
-
-    .about-us-container {
-        max-width: 704px;
-        padding-bottom: 100px;
-    }
-
-    .title {
-        font-size: 44px;
-        letter-spacing: 0.020625em;
-    }
-
     .title-text-first {
         font-size: 16px;
         letter-spacing: -0.64px;
-    }
-
-    .title-text-second {
+      }
+    
+      .title-text-second {
         margin-bottom: 40px;
         font-size: 16px;
         letter-spacing: -0.64px;
-    }
-
-    .title-picture {
-        display: block;
-    }
+      }
+      .pictures {
+        max-width: 704px;
+      }
 }
-
-@media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1280px) {
     .shirt {
-        background-image:
-            url(../img/about_us/desctop/emblem3-desc.png);
+        background-image: url(./img/about_us/desctop1440/emblem3-desc.png);
         background-repeat: no-repeat;
         background-position: bottom 70px right 0px;
         background-size: 385px 483px;
+      }
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .shirt {
+        background-image: url(./img/about_us/desctop1440/emblem3-desc-2x.png);
+        background-repeat: no-repeat;
+        background-position: bottom 70px right 0px;
+        background-size: 385px 483px;
+      }
     }
+    .about-us-container {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 150px;
+    }
+  
+    .text-container {
+  width: 436px;
+      margin-right: 50px;
+      margin-top: 45.5px;
+    }
+  
+    .title-picture {
+      display: block;
+    }
+    .pictures {
+       width: 594px;
+      }
+  }  
+  @media screen and (min-width: 1440px) {
+    .shirt {
+      background-image: url(./img/about_us/desctop1440/emblem3-desc1440.png);
+      background-repeat: no-repeat;
+      background-position: bottom 70px right 0px;
+      background-size: 545px 483px;
+    }
+    .text-container {
+      width: 481px;
+      }
 
     @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .shirt {
-            background-image:
-                url(../img/about_us/desctop/emblem3-desc-2x.png);
-            background-repeat: no-repeat;
-            background-position: bottom 70px right 0px;
-            background-size: 385px 483px;
-        }
-
-        .about-us-container {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            max-width: 1080px;
-            padding-bottom: 150px;
-            padding-right: 100px;
-
-        }
-
-        .text-container {
-            width: 436px;
-            margin-right: 50px;
-        }
-
-        .title-picture {
-            display: block;
-        }
-    }
-
-}
-
-@media screen and (min-width: 1440px) {
-    .shirt {
-        background-image:
-            url(../img/about_us/desctop1440/emblem3-desc1440.png);
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .shirt {
+        background-image: url(./img/about_us/desctop1440/emblem3-desc1440-2x.png);
         background-repeat: no-repeat;
         background-position: bottom 70px right 0px;
         background-size: 545px 483px;
+      }
+      .pictures {
+        width: 709px;
+      }
+      .text-container {
+        margin-top: 75px;
+      }
     }
-
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .shirt {
-            background-image:
-                url(../img/about_us/desctop1440/emblem3-desc1440-2x.png);
-            background-repeat: no-repeat;
-            background-position: bottom 70px right 0px;
-            background-size: 545px 483px;
-        }
-
-        .text-container {
-            max-width: 481px;
-        }
-
-        .title-picture {
-            display: block;
-        }
-    }
-}
+  }
