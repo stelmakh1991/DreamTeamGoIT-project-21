@@ -1,6 +1,5 @@
 .hero {
   color: #fcf9f9;
-  width: 100%;
 }
 .hero .container {
   padding-top: 60px;
@@ -54,8 +53,6 @@
 }
 .hero-img {
   border-radius: 4px;
-  width: 335px;
-  height: 545px;
 }
 .hero-star-img {
   width: 52px;
@@ -90,7 +87,7 @@
   }
   .hero-img {
     width: 413px;
-    height: 575px;
+    height: auto;
   }
   .hero-star {
     display: flex;
@@ -124,7 +121,7 @@
   }
   .hero-img {
     width: 392px;
-    height: 545px;
+    height: auto;
   }
   .hero-title {
     max-width: 518px;

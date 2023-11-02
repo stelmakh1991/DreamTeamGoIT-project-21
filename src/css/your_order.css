@@ -1,10 +1,4 @@
-@media (min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-  .back-img {
-  background-image: url(../img/your_order/mobile/image-mob-2x.jpg);
-  }
-}
+
 .back-img {
     background-image: url(../img/your_order/mobile/image-mob.jpg);
     background-repeat: no-repeat;
@@ -14,6 +8,14 @@
     max-width: 375px;
     height: 550px;
     margin: 0 auto 80px;
+}
+
+@media (min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .back-img {
+  background-image: url(../img/your_order/mobile/image-mob-2x.jpg);
+  }
 }
 
 .order-part {
