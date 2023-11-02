@@ -1,15 +1,18 @@
+
 body {
+    background-color: #1c2225;
     color: rgba(252, 249, 249, 0.40);
     font-family: 'Manrope', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: -0.56px;
+    letter-spacing: -0.04em;
     max-width: 100vw;
     margin: 0;
 }
 a {
+    color: #FCF9F9;
     font-style: normal;
     text-decoration: none;
 }
@@ -21,10 +24,9 @@ h2 {
     font-size: 32px;
     font-weight: 500;
     line-height: 1.37;
-    letter-spacing: -0.96px;
+    letter-spacing: -0.03em;
 }
-.container {
-    max-width: 375px;    
+.container {    
     margin: 0 auto;
     padding: 0 20px;
     height: auto;
@@ -44,6 +46,12 @@ img {
     display: block;
     width: 100%;
     height: auto;
+}
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+        padding: 0 20px;
+    }
 }
 @media screen and (min-width: 768px) {
     .container {
