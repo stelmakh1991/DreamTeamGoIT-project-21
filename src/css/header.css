@@ -20,12 +20,12 @@
   position: fixed;
   top: 0;
   left: 50%;
-  transform: translate(-50%);
-  width: 274px;
+  transform: translateX(-50%);
+  width: 100vw;
   height: 100vh;
   background-color: #ecd979;
   background-image: url(../img/menu/mobile/emblem1-mob.png);
-  background-size: 274px;
+  background-size: 100vw;
   background-repeat: no-repeat;
   background-position: bottom;
   padding-top: 20px;
@@ -162,6 +162,7 @@
 .soc-link:hover,
 .soc-link:focus {
   border-color: #ecd979;
+  background-color: transparent;
 }
 
 .soc-icon {
