@@ -190,7 +190,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     .menu {
-      background-image: url(./img/menu/tablet/emblem1-tab-2x.png);
+      background-image: url(../img/menu/tablet/emblem1-tab-2x.png);
     }
   }
 
