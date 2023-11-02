@@ -1,4 +1,6 @@
-const mob_menu = document.querySelector('.menu');
+
+const mob_menu = document.querySelector('.menu'); 
+
 document.querySelector(".header-btn").addEventListener('touchstart', () => {
     mob_menu.classList.add('is-open');
 });

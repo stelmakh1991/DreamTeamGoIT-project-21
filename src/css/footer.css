@@ -1,0 +1,183 @@
+
+footer {
+    border-top: 1px solid #FCF9F91A;
+    background-color: #1c2225;    
+}
+.container{
+    box-sizing: border-box;
+}
+.footer-container{
+    background-image: url(../img/footer/mobile/emblem-mob.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer-container {
+        background-image: url(../img/footer/mobile/emblem-mob-2x.png);    
+    }
+}
+
+
+.footer-content{
+    padding-top: 40px;
+    padding-bottom: 292px;
+}
+.footer-link-list{
+    text-transform: uppercase;
+    color:#fcf9f9;
+    gap: 25px 40px;
+    margin-bottom: 40px;
+}
+.footer-link-item{
+    line-height: 1.285;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+.footer-link-item:nth-child(1){
+    width: 107px;
+}
+.footer-link-item:nth-child(2){
+    order: 3;
+}
+.footer-link-item:nth-child(4){
+    order: 3;
+}
+.footer-link-item:hover{
+    color: rgba(236, 217, 121, 1);
+}
+.footer-logo-descriptions{
+    color: #fcf9f9;
+    font-size: 44px;
+    line-height: 1.227;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+}
+footer p:last-child{
+    margin-bottom: 80px;
+}
+
+.orange-color{
+    color: rgba(236, 217, 121, 1);
+}
+
+
+
+
+
+/* ============================================ 768 ========================================= */
+
+
+
+@media screen and (min-width: 768px) {
+.footer-container{
+    background-image: url(../img/footer/tablet/emblem-tab.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}    
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer-container {
+        background-image: url(../img/footer/tablet/emblem-tab-2x.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+}
+.footer-content {
+    padding-bottom: 40px;
+    padding-right: 238px;
+}
+.footer-link-list{
+    margin-bottom: 80px;
+    gap: 25px;
+}
+.footer-link-item:nth-child(1) {
+    width: auto;
+}
+
+.footer-link-item:nth-child(3) {
+    order: 3;
+}
+
+
+.footer-logo-descriptions{
+    font-size: 54px;
+    line-height: 1.185;
+    margin-bottom: 0;
+}
+footer p:last-child {
+    margin-bottom: 0;
+}
+}
+
+
+
+/* ============================================ 1280 ========================================= */
+
+
+
+@media screen and (min-width: 1280px) {
+
+.footer-container {
+    background-image: url(../img/footer/desctop/emblem-desc.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer-container {
+        background-image: url(../img/footer/desctop/emblem-desc-2x.png);
+    }
+}
+.footer-content {
+    padding-right: 326px;
+}
+.footer-link-list {
+    margin-bottom: 117px;
+}
+.footer-logo-descriptions {
+    font-size: 64px;
+    line-height: 1.156;
+}
+}
+
+/* ============================================ 1440 ========================================= */
+
+
+@media screen and (min-width: 1440px) {
+
+.footer-container {
+    background-image: url(../img/footer/desctop1440/emblem-desc1440.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer-container {
+        background-image: url(../img/footer/desctop1440/emblem-desc1440-2x.png);
+    }
+}
+
+.footer-content {
+    padding-right: 486px;
+}
+}
+
+
+/* ============================================ 320 ========================================= */
+
+
+
+@media screen and (max-width: 320px) {
+.footer-link-list{
+    flex-direction: column;
+}
+}
