@@ -92,12 +92,7 @@
         display: flex;
     }
 
-    .text-container {
-        max-width: 704px;
-    }
-
     .about-us-container {
-        max-width: 704px;
         padding-bottom: 100px;
     }
 
@@ -147,10 +142,7 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
-            max-width: 1080px;
             padding-bottom: 150px;
-            padding-right: 100px;
-
         }
 
         .text-container {

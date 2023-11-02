@@ -86,7 +86,7 @@
 
 .menu-phone-wrapper {
   border: 1px solid rgba(28, 34, 37, 0.10);
-  width: 118px;
+  width: 137px;
   padding: 12px 20px;
   border-radius: 15px;
   margin-right: auto;
@@ -161,6 +161,10 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.soc-link:hover, 
+.soc-link:focus {
+  border-color: #ecd979;
+}
 .soc-icon {
   fill:#fcf9f9;
 }
@@ -174,7 +178,6 @@
 }
 
 .header-btn-icon {
-  fill:#ecd979;
   stroke:#ecd979;
 }
 
@@ -190,7 +193,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     .menu {
-      background-image: url(../img/menu/tablet/emblem1-tab-2x.png);
+      background-image: url(./img/menu/tablet/emblem1-tab-2x.png);
     }
   }
 
