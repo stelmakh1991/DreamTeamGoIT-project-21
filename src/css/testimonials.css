@@ -2,9 +2,12 @@
 }
 
 .testimonials-container{
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
 
 .testimonials-title{
@@ -19,6 +22,10 @@
 } */
 
 .testimonials-item{
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     padding: 0 18px 18px 18px;
     border-radius: 4px;
@@ -29,12 +36,12 @@
     width: 64px;
     height: 64px;
     position: absolute;
-    top: -32px;
+    top: -28px;
     left: 50%;
     transform: translate(-50%);
 }
 
-.testimonials-maria{
+.photo{
     width: auto;
     height: auto;
     /* position: absolute;
@@ -43,19 +50,10 @@
     transform: translate(-50%); */
 }
 
-.testimonials-item-sergey{
+.sergey{
     display: none;
 }
-
-.testimonials-sergey{
-    display: none;
-}
-
-.testimonials-item-natalia{
-    display: none;
-}
-
-.testimonials-natalia{
+.natalia{
     display: none;
 }
 
@@ -78,7 +76,11 @@
 }
 
 @media screen and (min-width: 768px){ 
-    .testimonials-container{
+    .testimonials-list {
+        gap: 32px;
+    }
+    .testimonials-item {
+        width: calc((100% - 32px) / 2);
     }
     .testimonials-title{
         color: var(--white, #FCF9F9);
@@ -88,45 +90,33 @@
     .testimonials-list{
         gap: 0 32px;
     }
-    .testimonials-item-sergey{
-        display: block;
-        position: relative;
-        padding: 0 18px 18px 18px;
-        border-radius: 4px;
-        border: 1px solid rgba(252, 249, 249, 0.10);
+    .sergey{
+        display: flex;
     }
 
     .testimonials-text{
         max-width: 277px;
         font-size: 16px;
     }
-    .testimonials-sergey{
-        display: block;
-    }
 }
 
 @media screen and (min-width: 1280px){
-    .testimonials-container{
+    .testimonials-list {
+        gap: 26px;
     }
-    .testimonials-item-natalia{
-        display: block;
-        position: relative;
-        padding: 0 18px 18px 18px;
-        border-radius: 4px;
-        border: 1px solid rgba(252, 249, 249, 0.10);
+    .testimonials-item {
+            width: calc((100% - 52px) / 3);
+        }
+    .natalia{
+        display: flex;
     }
     
-    .testimonials-natalia{
-        display: block;
-    }
     .testimonials-text{
         max-width: 283px;
     }
 }
 
 @media screen and (min-width: 1440px){
-    .testimonials-container{
-    }
     .testimonials-text{
         max-width: 330px;
     }
