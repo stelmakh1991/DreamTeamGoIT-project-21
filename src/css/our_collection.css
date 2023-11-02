@@ -10,65 +10,6 @@
   justify-content: center;
 }
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .collection {
-    background-image: url(../img/our_collection/mobile/emblem2-mob-2x.png);
-  }
-}
-@media screen and (min-width: 768px) {
-  .collection {
-    padding-bottom: 100px;
-    background-position-y: 221px;
-    background-image: url(../img/our_collection/tablet/emblem2-tab.png);
-    background-size: 100px;
-
-  }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .collection {
-      background-image: url(../img/our_collection/tablet/emblem2-tab-2x.png);
-    }
-  }
-  .collection-title {
-    line-height: 1.45;
-    font-size: 44px;
-    letter-spacing: -0.03em;
-  }
-  .collection-item {
-    width: calc((100% - 20px) / 2);
-  }
-  .collection-name{
-    font-size: 18px;
-  }
-  .collection-price{
-    font-size: 18px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .collection {
-    padding-bottom: 150px;
-    background-image: url(../img/our_collection/desctop/emblem2-desc-2x.png);
-    background-size: 150px;
-  }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .collection {
-      background-image: url(../img/our_collection/desctop/emblem2-desc-2x.png);
-    }
-  }
-  .collection-list {
-    row-gap: 40px;
-  }
-  .collection-item {
-    width: calc((100% - 40px) / 3);
-  }
-}
-
 .collection-title {
   text-align: center;
   color: #fcf9f9;
@@ -108,6 +49,69 @@
 .collection-photo {
   border-radius: 4px;
 }
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .collection {
+    background-image: url(../img/our_collection/mobile/emblem2-mob-2x.png);
+  }
+}
+@media screen and (min-width: 768px) {
+  .collection {
+    padding-bottom: 100px;
+    background-position-y: 221px;
+    background-image: url(../img/our_collection/tablet/emblem2-tab.png);
+    background-size: 100px;
+
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .collection {
+      background-image: url(../img/our_collection/tablet/emblem2-tab-2x.png);
+    }
+  }
+  .collection-title {
+    line-height: 1.45;
+    font-size: 44px;
+    letter-spacing: -0.03em;
+  }
+  .collection-item {
+    width: calc((100% - 20px) / 2);
+  }
+  .collection-name{
+    font-size: 18px;
+  }
+  .collection-price{
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .collection {
+      background-image: url(../img/our_collection/desctop/emblem2-desc-2x.png);
+    }
+
+  }
+  .collection {
+    padding-bottom: 150px;
+    background-image: url(../img/our_collection/desctop/emblem2-desc-2x.png);
+    background-size: 150px;
+  }
+
+  .collection-list {
+    row-gap: 40px;
+  }
+
+  .collection-item {
+    width: calc((100% - 40px) / 3);
+  }
+}
+
 @media screen and (min-width: 375px) {
   .collection-photo {
     width: 335px;
