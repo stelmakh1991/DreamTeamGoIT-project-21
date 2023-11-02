@@ -2,11 +2,11 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .back-img {
-  background-image: url(../img/your_order/mobile/Image-mob-2x.jpg);
+  background-image: url(../img/your_order/mobile/image-mob-2x.jpg);
   }
 }
 .back-img {
-    background-image: url(../img/your_order/mobile/Image-mob.jpg);
+    background-image: url(../img/your_order/mobile/image-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -123,7 +123,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .back-img {
-        background-image: url(../img/your_order/tablet/Image-tab-2x.jpg);
+        background-image: url(../img/your_order/tablet/image-tab-2x.jpg);
         }
         .order-part {
         background-image: url(../img/your_order/tablet/emblem4-tab-2x.png);
@@ -131,7 +131,7 @@
     }
 
     .back-img {
-        background-image: url(../img/your_order/tablet/Image-tab.jpg);
+        background-image: url(../img/your_order/tablet/image-tab.jpg);
         max-width: 768px;
         height: 776px;
         margin-bottom: 100px;
