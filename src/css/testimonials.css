@@ -41,15 +41,6 @@
     transform: translate(-50%);
 }
 
-.photo{
-    width: auto;
-    height: auto;
-    /* position: absolute;
-    top: -64px;
-    left: 50%;
-    transform: translate(-50%); */
-}
-
 .sergey{
     display: none;
 }

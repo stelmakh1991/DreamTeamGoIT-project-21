@@ -1,6 +1,6 @@
 
 .back-img {
-    background-image: url(../img/your_order/mobile/image-mob.jpg);
+    background-image: url(../img/your_order/mobile/image-mob.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -14,7 +14,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .back-img {
-  background-image: url(../img/your_order/mobile/image-mob-2x.jpg);
+  background-image: url(../img/your_order/mobile/image-mob-2x.avif);
   }
 }
 
@@ -125,7 +125,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .back-img {
-        background-image: url(../img/your_order/tablet/image-tab-2x.jpg);
+        background-image: url(../img/your_order/tablet/image-tab-2x.avif);
         }
         .order-part {
         background-image: url(../img/your_order/tablet/emblem4-tab-2x.png);
@@ -133,7 +133,7 @@
     }
 
     .back-img {
-        background-image: url(../img/your_order/tablet/image-tab.jpg);
+        background-image: url(../img/your_order/tablet/image-tab.avif);
         max-width: 768px;
         height: 776px;
         margin-bottom: 100px;
@@ -190,14 +190,14 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .back-img {
-        background-image: url(../img/your_order/desctop/image-desc-2x.jpg);
+        background-image: url(../img/your_order/desctop/image-desc-2x.avif);
         }
         .order-part {
         background-image: url(../img/your_order/desctop/emblem4-desc-2x.png);
         }
     }
     .back-img {
-        background-image: url(../img/your_order/desctop/image-desc.jpg);
+        background-image: url(../img/your_order/desctop/image-desc.avif);
         max-width: 1280px;
         margin-bottom: 150px;
     }
@@ -220,14 +220,14 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .back-img {
-        background-image: url(../img/your_order/desctop1440/image-desc1440-2x.jpg);
+        background-image: url(../img/your_order/desctop1440/image-desc1440-2x.avif);
         }
         .order-part {
         background-image: url(../img/your_order/desctop1440/emblem4-desc1440-2x.png);
         }
     }
     .back-img {
-        background-image: url(../img/your_order/desctop1440/image-desc1440.jpg);
+        background-image: url(../img/your_order/desctop1440/image-desc1440.avif);
         max-width: 1440px;
     }
 
