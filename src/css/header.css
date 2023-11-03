@@ -10,6 +10,7 @@
   align-items: center;
   position: relative;
   height: 52px;
+  overflow: hidden;
 }
 
 .logo-img {
@@ -19,8 +20,8 @@
 .menu {
   position: fixed;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  transform: translateX(100%);
   width: 100vw;
   height: 100vh;
   background-color: #ecd979;
@@ -39,7 +40,7 @@
   flex-direction: column;
   justify-content: space-between;
 
-  transition-property: opacity, visibility;
+  transition-property: opacity, visibility, transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -53,6 +54,7 @@
 }
 
 .menu.is-open {
+  transform: translateY(0%);
   visibility: visible;
   opacity: 1;
   pointer-events: all;
