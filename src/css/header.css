@@ -20,7 +20,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  width: 100%;
+  width: 274px;
   height: 100vh;
   background-color: #ecd979;
   background-image: url(../img/menu/mobile/emblem1-mob.png);
@@ -78,7 +78,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  gap: 186px;
 }
 
 .menu-phone-wrapper {
@@ -106,6 +105,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  margin-top: 20vh;
   margin-left: auto;
   gap: 20px;
 }
@@ -178,7 +178,7 @@
   stroke: #ecd979;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .backdrop {
       position: fixed;
       top: 0;
