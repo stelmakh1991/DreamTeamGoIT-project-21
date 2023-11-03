@@ -220,7 +220,6 @@
 
   .menu-wrapper {
     padding: 0 32px;
-    gap: 224px;
   }
 
   .menu-btn-icon {
@@ -240,6 +239,7 @@
 
   /* ==nav menu */
   .menu-nav-list {
+    margin-top: 20vh;
     gap: 25px;
   }
 
