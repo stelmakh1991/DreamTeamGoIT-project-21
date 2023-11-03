@@ -1,0 +1,122 @@
+.collection {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+  background-image: url(../img/our_collection/mobile/emblem2-mob.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: 298px;
+  background-size: 72px 177px;
+  justify-content: center;
+}
+
+.collection-title {
+  text-align: center;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+}
+
+.collection-item {
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+
+.collection-name {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+.collection-list {
+  gap: 20px;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.collection-price {
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+.collection-photo {
+  border-radius: 4px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .collection {
+    background-image: url(../img/our_collection/mobile/emblem2-mob-2x.png);
+  }
+}
+@media screen and (min-width: 768px) {
+  .collection {
+    padding-bottom: 100px;
+    background-position-y: 221px;
+    background-image: url(../img/our_collection/tablet/emblem2-tab.png);
+    background-size: 100px;
+
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .collection {
+      background-image: url(../img/our_collection/tablet/emblem2-tab-2x.png);
+    }
+  }
+  .collection-title {
+    line-height: 1.45;
+    font-size: 44px;
+    letter-spacing: -0.03em;
+  }
+  .collection-item {
+    width: calc((100% - 20px) / 2);
+  }
+  .collection-name{
+    font-size: 18px;
+  }
+  .collection-price{
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .collection {
+      background-image: url(../img/our_collection/desctop/emblem2-desc-2x.png);
+    }
+
+  }
+  .collection {
+    padding-bottom: 150px;
+    background-image: url(../img/our_collection/desctop/emblem2-desc-2x.png);
+    background-size: 150px;
+  }
+
+  .collection-list {
+    row-gap: 40px;
+  }
+
+  .collection-item {
+    width: calc((100% - 40px) / 3);
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .collection-photo {
+    width: 335px;
+  }
+}
+.collection-information {
+  margin-top: 18px;
+}

@@ -1,7 +1,5 @@
 .hero {
-  background-color: #1c2225;
   color: #fcf9f9;
-  width: 100%;
 }
 .hero .container {
   padding-top: 60px;
@@ -55,8 +53,6 @@
 }
 .hero-img {
   border-radius: 4px;
-  width: 335px;
-  height: 545px;
 }
 .hero-star-img {
   width: 52px;
@@ -70,6 +66,8 @@
 }
 @media screen and (min-width: 768px) {
   .hero .container {
+    display: flex;
+    flex-direction: column;
     padding-top: 106px;
     padding-bottom: 100px;
   }
@@ -89,7 +87,7 @@
   }
   .hero-img {
     width: 413px;
-    height: 575px;
+    height: auto;
   }
   .hero-star {
     display: flex;
@@ -123,7 +121,7 @@
   }
   .hero-img {
     width: 392px;
-    height: 545px;
+    height: auto;
   }
   .hero-title {
     max-width: 518px;
