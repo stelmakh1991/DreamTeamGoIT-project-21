@@ -1,4 +1,10 @@
 .about-us-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 80px;
+
     background-image: url(../img/about_us/mobile/emblem3-mob.png);
     background-repeat: no-repeat;
     background-position: bottom 18px right 0px;
@@ -17,13 +23,6 @@
     }
 }
 
-.about-us-container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    position: relative;
-    padding-bottom: 80px;
-}
 
 .title {
     color: #FCF9F9;
@@ -37,7 +36,7 @@
     margin-bottom: 40px;
 }
 
-.title-text-first {
+.paragraf-first {
     color: rgba(252, 249, 249, 0.40);
     font-family: Manrope;
     font-size: 14px;
@@ -49,7 +48,7 @@
     flex-direction: column;
 }
 
-.title-text-second {
+.paragraf-second {
     color: rgba(252, 249, 249, 0.40);
     font-family: Manrope;
     font-size: 14px;
@@ -87,10 +86,6 @@
         }
     }
 
-    .container {
-        display: flex;
-    }
-
     .about-us-container {
         padding-bottom: 100px;
     }
@@ -100,12 +95,12 @@
         letter-spacing: 0.020625em;
     }
 
-    .title-text-first {
+    .paragraf-first {
         font-size: 16px;
         letter-spacing: -0.64px;
     }
 
-    .title-text-second {
+    .paragraf-second {
         margin-bottom: 40px;
         font-size: 16px;
         letter-spacing: -0.64px;
@@ -118,6 +113,12 @@
 
 @media screen and (min-width: 1280px) {
     .about-us-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 150px;
+
         background-image:
             url(../img/about_us/desctop/emblem3-desc.png);
         background-repeat: no-repeat;
@@ -134,14 +135,6 @@
             background-repeat: no-repeat;
             background-position: bottom 70px right 0px;
             background-size: 385px 483px;
-        }
-
-        .about-us-container {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            padding-bottom: 150px;
         }
 
         .text-container {

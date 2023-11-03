@@ -52,9 +52,9 @@
   pointer-events: all;
 }
 .backdrop.is-open {
-      opacity: 100%;
-      visibility: visible;
-      pointer-events: auto;
+  opacity: 100%;
+  visibility: visible;
+  pointer-events: auto;
 }
 .menu-btn {
   position: absolute;
@@ -86,8 +86,7 @@
   padding: 12px 20px;
   border-radius: 15px;
   margin-right: auto;
-  display: block;
-
+  display: flex;
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -107,6 +106,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  margin-left: auto;
   gap: 20px;
 }
 
@@ -271,10 +271,7 @@
     visibility: visible;
     opacity: 1;
     pointer-events: all;
-
     display: flex;
-    /* flex-direction: row-reverse; */
-    justify-content: space-between;
   }
 
   .menu-btn {
@@ -287,13 +284,13 @@
     align-items: center;
     justify-content: space-between;
     margin-right: 20px;
-    gap: 0;
+    gap: 129px;
   }
 
   .menu-phone-wrapper {
     border: 1px solid rgba(252, 249, 249, 0.10);
     gap: 25px;
-    margin-right: 0;
+    margin-right: auto;
   }
 
   .menu-phone-wrapper:hover,
@@ -312,6 +309,7 @@
 
   .menu-nav-list {
     flex-direction: row;
+    width: auto;
     justify-content: flex-start;
     align-items: center;
     gap: 25px;
@@ -336,5 +334,9 @@
 
   .header-section {
     padding-top: 18px;
+  }
+  .menu-wrapper {
+    gap: 289px
+  ;
   }
 }
