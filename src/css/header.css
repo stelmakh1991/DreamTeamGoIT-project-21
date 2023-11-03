@@ -105,7 +105,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 20vh;
+  margin-top: 19vh;
+  margin-bottom: 20vh;
   margin-left: auto;
   gap: 20px;
 }
@@ -313,6 +314,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 25px;
+    margin-top: 0;
   }
 
   .nav-link {
