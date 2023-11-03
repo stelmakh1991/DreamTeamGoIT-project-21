@@ -13,19 +13,16 @@ document.querySelector(".menu-btn").addEventListener('touchstart', () => {
 
 for (let i = 0; i < close_item.length; i++) {
     if(close_item[i]){
-        close_item[i].addEventListener('touchstart', () => { 
-        let anchorId = close_item[i].getAttribute('href')
-            console.log(anchorId);
+        close_item[i].addEventListener('touchstart', () => {
+            let anchorId = close_item[i].getAttribute('href');
             document.querySelector(anchorId).scrollIntoView({
                 behavior: 'smooth', block: 'start'
-            })
-        mob_menu.classList.remove('is-open');
-        mob_backdrop.classList.remove('is-open');
-    })
-        }
-}
-
-
+            });
+            mob_menu.classList.remove('is-open');
+            mob_backdrop.classList.remove('is-open');
+        });
+    };
+};
 
 document.querySelector(".header-btn").addEventListener('touchstart', () => {
     mob_backdrop.classList.add('is-open');
