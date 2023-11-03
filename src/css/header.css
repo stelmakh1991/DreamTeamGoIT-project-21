@@ -199,7 +199,7 @@
   .menu {
     transform: translateX(100%);
     width: 380px;
-    height: 1024px;
+    height: 100vh;
     background-image: url(../img/menu/tablet/emblem1-tab.png);
     background-size: 380px;
   }
